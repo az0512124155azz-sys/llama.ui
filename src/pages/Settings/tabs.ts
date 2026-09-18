@@ -5,6 +5,9 @@ import {
   LuDatabase,
   LuFlaskConical,
   LuGrid2X2Plus,
+  LuSparkles,
+  LuBot,
+  LuPuzzle,
   LuMessagesSquare,
   LuMonitor,
   LuSettings,
@@ -14,6 +17,9 @@ import { SettingsTabViewProps } from './types';
 import { AdvancedSettingsView } from './views/AdvancedSettingsView';
 import { ConversationsSettingsView } from './views/ConversationsSettingsView';
 import { ExperimentalSettingsView } from './views/ExperimentalSettingsView';
+import { SkillsSettingsView } from './views/SkillsSettingsView';
+import { AgentsSettingsView } from './views/AgentsSettingsView';
+import { PluginsSettingsView } from './views/PluginsSettingsView';
 import { GeneralSettingsView } from './views/GeneralSettingsView';
 import { ImportExportSettingsView } from './views/ImportExportSettingsView';
 import { PresetsSettingsView } from './views/PresetsSettingsView';
@@ -69,6 +75,24 @@ export const SETTINGS_TAB_DESCRIPTORS: SettingsTabDescriptor[] = [
     titleKey: 'settings.tabs.advanced',
     icon: LuGrid2X2Plus,
     View: AdvancedSettingsView,
+  },
+  {
+    id: 'skills',
+    titleKey: 'settings.tabs.skills',
+    icon: LuSparkles,
+    View: SkillsSettingsView,
+  },
+  {
+    id: 'agents',
+    titleKey: 'settings.tabs.agents',
+    icon: LuBot,
+    View: AgentsSettingsView,
+  },
+  {
+    id: 'plugins',
+    titleKey: 'settings.tabs.plugins',
+    icon: LuPuzzle,
+    View: PluginsSettingsView,
   },
   {
     id: 'experimental',

@@ -9,7 +9,7 @@
   "showRawAssistantMessage": false,
   "pasteLongTextToFileLen": 10000,
   "pdfAsImage": false,
-  "showTokensPerSecond": false,
+  "showTokensPerSecond": true,
   "showThoughtInProgress": false,
   "excludeThoughtOnReq": true,
   "overrideGenerationOptions": false,
