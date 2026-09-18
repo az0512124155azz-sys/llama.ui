@@ -13,6 +13,13 @@
     "allowCustomBaseUrl": true,
     "isKeyRequired": false
   },
+  "bionic": {
+    "baseUrl": "http://localhost:1234",
+    "name": "Bionic",
+    "icon": "assets/providers/lmstudio.webp",
+    "allowCustomBaseUrl": true,
+    "isKeyRequired": false
+  },
   "ollama": {
     "baseUrl": "http://localhost:11434",
     "name": "Ollama",
